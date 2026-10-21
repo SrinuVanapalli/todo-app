@@ -1,0 +1,27 @@
+
+# Java / Spring Boot
+todo-backend/target/
+todo-backend/.idea/
+todo-backend/*.iml
+
+# React / Vite
+todo-frontend/node_modules/
+todo-frontend/dist/
+todo-frontend/.vite/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+todo-backend/.env
+todo-frontend/.env
+
+# IDE and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Additional local configuration and logs
+*.log
+application-local.properties
